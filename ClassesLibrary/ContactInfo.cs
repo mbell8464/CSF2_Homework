@@ -30,7 +30,7 @@ namespace ClassesLibrary
 
         public override string ToString()
         {
-            return string.Format("Address: {0}\nCity: {1}\nState: {2}\nZip: {3}\nPhone: {4}\nEmail: {5}\n",
+            return string.Format("\nAddress: {0}\nCity: {1}\nState: {2}\nZip: {3}\nPhone: {4}\nEmail: {5}\n",
                 StreetAddress,
                 City,
                 State,

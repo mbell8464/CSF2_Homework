@@ -44,15 +44,20 @@ namespace TesterProgram
             //*****CONTACT INFO*****
             Console.WriteLine("****CONTACTINFO****");
 
-            ContactInfo c1 = new ContactInfo("123 Main St.", "Springfield", "Mars", "12345", "1234567890", "email@email.email");
-            ContactInfo c2 = new ContactInfo("987 Secondary Dr.", "Boardfield", "Jupitar", "98765", "9876543210", "example@example.email");
+            ContactInfo contInfo1 = new ContactInfo("123 Main St.", "Springfield", "Mars", "12345", "1234567890", "email@email.email");
+            ContactInfo contInfo2 = new ContactInfo("987 Secondary Dr.", "Boardfield", "Jupitar", "98765", "9876543210", "example@example.email");
 
-            Console.WriteLine(c1);
-            Console.WriteLine(c2);
+            Console.WriteLine(contInfo1);
+            Console.WriteLine(contInfo2);
 
 
             //*****CUSTOMER*****
+            Console.WriteLine("****CUSTOMER****");
+            Customer c1 = new Customer("156", "Jim", "Halpert", contInfo1);
+            Customer c2 = new Customer("785", "Pam", "Beesley", contInfo2);
 
+            Console.WriteLine(c1);
+            Console.WriteLine(c2);
 
 
             //*****CREDIT CARD ACCOUNT*****
