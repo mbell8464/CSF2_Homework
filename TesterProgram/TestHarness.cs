@@ -27,6 +27,15 @@ namespace TesterProgram
 
             Console.WriteLine(v1);
             Console.WriteLine(v2);
+
+
+            Console.WriteLine("****LOGIN****");
+
+            Login l1 = new Login("MScott1", "WorldsBestBoss");
+            Login l2 = new Login("DSchrute", "SchruteFarms");
+
+            Console.WriteLine(l1);
+            Console.WriteLine(l2);
         }
     }
 }
