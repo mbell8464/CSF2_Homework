@@ -18,6 +18,15 @@ namespace TesterProgram
 
             Console.WriteLine(s1);
             Console.WriteLine(s2);
+
+
+            Console.WriteLine("****VEHICLE****");
+
+            Vehicle v1 = new Vehicle("Kia", "Optima", 2015, 3005f);
+            Vehicle v2 = new Vehicle("Acura", "TL", 2008, 2750f);
+
+            Console.WriteLine(v1);
+            Console.WriteLine(v2);
         }
     }
 }
